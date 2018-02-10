@@ -137,7 +137,7 @@ class Main extends Phaser.State {
   }
   gameOver() {
     //pass it the score as a parameter
-    this.game.state.start("GameTitle", true, false, this.playerScore);
+    this.game.state.start("GameOver", true, false, this.playerScore);
   }
   collect(player, collectable) {
     //play collect sound
