@@ -44,7 +44,6 @@ class Main extends Phaser.State {
 
     //sounds
     this.explosionSound = this.game.add.audio("explosion");
-    console.log(this.explosionSound);
     this.collectSound = this.game.add.audio("collect");
   }
 
@@ -53,7 +52,6 @@ class Main extends Phaser.State {
       //move on the direction of the input
       this.game.physics.arcade.moveToPointer(this.player, this.playerSpeed);
     }
-
     //collision between player and asteroids
     this.game.physics.arcade.collide(
       this.player,
@@ -137,7 +135,7 @@ class Main extends Phaser.State {
   }
   gameOver() {
     //pass it the score as a parameter
-    this.game.state.start("GameOver", true, false, this.playerScore);
+    this.game.state.start("GameTitle", true, false, this.playerScore);
   }
   collect(player, collectable) {
     //play collect sound
