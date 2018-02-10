@@ -51,7 +51,7 @@ You need [Node.js and npm](https://nodejs.org/). You should also have git instal
 
 Clone the repository (or download the ZIP file)
 
-`git clone https://github.com/belohlavek/phaser-es6-boilerplate.git`
+`git clone https://github.com/chrisbremmer/phaser-es6-boilerplate.git`
 
 Install dependencies
 
@@ -87,13 +87,7 @@ See [gulpfile.md](https://github.com/belohlavek/phaser-es6-boilerplate/blob/mast
 
 ## Contributing
 
-Please report any bugs or add requests on [Github Issues](https://github.com/belohlavek/phaser-es6-boilerplate/issues).
-
-## About me
-
-My name is Daniel Belohlavek: I'm from Buenos Aires, Argentina and I love to derp around and code
-silly snippets. You can follow me on Twitter [@dbhvk](http://twitter.com/dbhvk)
-
+Please report any bugs or add requests on [Github Issues](https://github.com/chrisbremmer/phaser-es6-boilerplate/issues).
 ## License
 
 This project is released under the MIT License.

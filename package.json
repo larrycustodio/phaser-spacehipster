@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/belohlavek/phaser-es6-boilerplate"
+    "url": "https://github.com/chrisbremmer/phaser-es6-boilerplate"
   },
-  "author": "Daniel Belohlavek",
+  "author": "Chris Bremmer",
   "license": "MIT",
   "devDependencies": {
     "babelify": "^6.1.3",
